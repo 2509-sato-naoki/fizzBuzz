@@ -8,38 +8,27 @@ public class FizBuzzTest {
 
 	@Test
 	public void checkFizzBuzzTest() {
-		assertEquals("Fizz", FizBuzz.checkFizzBuzz(3));
+		assertEquals("Fizz", FizBuzz.checkFizzBuzz(9));
 	}
 
 	@Test
 	public void checkFizzBuzzTest2() {
-		assertEquals("Buzz", FizBuzz.checkFizzBuzz(5));
+		assertEquals("Buzz", FizBuzz.checkFizzBuzz(20));
 	}
 
 	@Test
 	public void checkFizzBuzzTest3() {
-		assertEquals("FizzBuzz", FizBuzz.checkFizzBuzz(15));
+		assertEquals("FizzBuzz", FizBuzz.checkFizzBuzz(45));
 	}
 
-//	@BeforeClass
-//	public static void setUpBeforeClass() throws Exception {
-//	}
-//
-//	@AfterClass
-//	public static void tearDownAfterClass() throws Exception {
-//	}
-//
-//	@Before
-//	public void setUp() throws Exception {
-//	}
-//
-//	@After
-//	public void tearDown() throws Exception {
-//	}
-//
-//	@Test
-//	public void test() {
-//		fail("まだ実装されていません");
-//	}
+	@Test
+	public void checkFizzBuzzTest4() {
+		assertEquals("44", FizBuzz.checkFizzBuzz(44));
+	}
+
+	@Test
+	public void checkFizzBuzzTest5() {
+		assertEquals("46", FizBuzz.checkFizzBuzz(46));
+	}
 
 }
